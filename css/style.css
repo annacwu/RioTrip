@@ -22,9 +22,13 @@ h1 {
     font-family: "Cinzel", serif;
 }
 
+h1 + h1 {
+    margin-bottom: 20px;
+}
+
 h2 {
     text-transform: lowercase; 
-    /* NOTE: the font has all the letters uppercase by nature, but by having this here it makes all of them the same height as compared to the h1 as you can see in the display */
+    /* NOTE: the font has all the letters look uppercase by design, but by having this here it makes all of them the same height as compared to the h1 as you can see in the display */
     line-height: 60px;
     font-size: 1.75em;
     font-weight: 600;
@@ -47,7 +51,6 @@ section {
 }
 
 div {
-    width: 100%;
     margin-bottom: 80px;
     display: flex;
     justify-content: space-between;
